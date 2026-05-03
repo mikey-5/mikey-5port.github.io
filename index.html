@@ -27,9 +27,9 @@
   .nav-links a { font-size: 13px; color: #aaa; text-decoration: none; transition: color 0.2s; }
   .nav-links a:hover { color: #fff; }
 
-  section { padding: 7rem 3rem; max-width: 1100px; margin: 0 auto; }
+  section { padding: 4rem 3rem; max-width: 1100px; margin: 0 auto; }
 
-  #hero { min-height: 60vh; display: flex; flex-direction: column; justify-content: center; padding-top: 5rem; padding-bottom: 3rem; max-width: 1100px; margin: 0 auto; padding-left: 3rem; padding-right: 3rem; position: relative; }
+  #hero { min-height: 0; display: flex; flex-direction: column; justify-content: center; padding-top: 8rem; padding-bottom: 3rem; max-width: 1100px; margin: 0 auto; padding-left: 3rem; padding-right: 3rem; position: relative; }
   .hero-eyebrow { font-family: 'DM Mono', monospace; font-size: 12px; color: var(--accent); letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 1.5rem; opacity: 0; animation: fadeUp 0.6s ease forwards 0.2s; }
   .hero-title { font-family: 'DM Serif Display', serif; font-size: clamp(2.5rem, 6vw, 5rem); line-height: 1.05; letter-spacing: -0.02em; color: var(--text); margin-bottom: 1.25rem; opacity: 0; animation: fadeUp 0.6s ease forwards 0.3s; }
   .hero-sub { font-size: 1.05rem; color: var(--muted); max-width: 580px; line-height: 1.8; margin-bottom: 3rem; opacity: 0; animation: fadeUp 0.6s ease forwards 0.5s; }
@@ -144,7 +144,6 @@
 <div id="hero">
   <h1 class="hero-title">Michael Williams</h1>
   <p class="hero-eyebrow">Game Designer · London</p>
-  <p class="hero-sub">Game designer and developer with a First-Class degree in Computer Games Technology and 5 years of experience designing and shipping games. Focused on simulation systems, gameplay loops, player immersion, and taking projects from concept through to production.</p>
   <div class="hero-links">
     <a href="#work" class="btn btn-primary">See my work</a>
     <a href="https://linkedin.com/in/michaelhwilliams" target="_blank" class="btn btn-ghost">LinkedIn</a>
@@ -157,7 +156,7 @@
   <div class="about-grid">
     <div class="about-text fi">
       <p>I'm a game designer and developer with <strong>5 years of hands-on experience</strong> building games across simulation, management, and detective genres. I graduated with a <strong>First-Class Honours degree</strong> in Computer Games Technology from the University of Portsmouth.</p>
-      <p>My work spans the full production pipeline, from writing game design documents and designing gameplay loops to implementing and iterating on systems in Unity and Unreal Engine 5. I approach design with a research-first mindset, drawing on theories of game feel, player agency, and immersion to make informed decisions.</p>
+      <p>My work spans the full production pipeline, from writing game design documents and designing gameplay loops to implementing and iterating on systems in Unity and Unreal Engine 5.</p>
       <p>I have worked in teams and solo across industry partnerships with <strong>Frontier Developments</strong> and personal projects, with my work showcased at EGX, Barclays Game Frenzy London, and GDLX 2025.</p>
     </div>
     <div class="fi" style="transition-delay:0.15s;">
@@ -192,7 +191,7 @@
       </div>
     </div>
 
-    <div style="display:grid;grid-template-columns:1fr 2fr;gap:1px;background:var(--border);border-bottom:1px solid var(--border);">
+    <div style="display:grid;grid-template-columns:1fr 2fr;gap:1px;background:var(--border);border-bottom:1px solid var(--border);border-top:1px solid var(--border);margin:0 1px;">
       <img src="Curation1.jpg" alt="Curation logo" style="width:100%;height:200px;object-fit:cover;display:block;">
       <img src="Curation2.jpg" alt="Curation gameplay" style="width:100%;height:200px;object-fit:cover;display:block;">
     </div>
